@@ -1,0 +1,14 @@
+#!/bin/bash
+
+set -e
+
+echo "#########"
+time ./$1/couring $2 --trivial
+echo "#########"
+time ./$1/couring $2 --thread-pool
+echo "#########"
+time ./$1/couring $2 --iouring
+echo "#########"
+time ./$1/couring $2 --coroutines
+echo "#########"
+time ./$1/couring $2 --coro-pool
