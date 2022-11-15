@@ -1,5 +1,6 @@
 # couring
-C++ program that uses C++20 Corotuines and io_uring
+C++ program that uses C++20 Corotuines and io_uring.
+Implementation explain the [blog series](https://pabloariasal.github.io/2022/11/12/couring-1/)
 
 # Requirements
 
